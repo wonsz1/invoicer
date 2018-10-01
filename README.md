@@ -23,3 +23,9 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+# Some links for further development
+
+https://nuxtjs.org/guide/installation
+https://bootstrap-vue.js.org/docs/components/form
+http://dzikowski.github.io/daj-sie-poznac/2017/05/19/eslint/
