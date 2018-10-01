@@ -11,6 +11,9 @@ $ npm install
 # serve with hot reload at localhost:3000
 $ npm run dev
 
+# --> fix of eslint reported errors <--
+$ npm run lintfix
+
 # build for production and launch server
 $ npm run build
 $ npm start
