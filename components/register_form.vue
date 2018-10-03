@@ -27,13 +27,24 @@
           type="password"
           required/>
       </b-form-group>
+      <b-form-group
+        id="passwordConfirmGroup"
+        label="Confirm"
+        label-for="password-confirm">
+
+        <b-form-input
+          id="password-confirm"
+          v-model="form.confirm"
+          type="password"
+          required/>
+      </b-form-group>
       
       <b-button
         type="submit"
-        variant="primary">Submit</b-button>
+        variant="primary">Register</b-button>
     </b-form>
     <br>
-    <nuxt-link to="/register">Register</nuxt-link>
+    <nuxt-link to="/">Go back</nuxt-link>
   </div>
 </template>
 
@@ -43,7 +54,8 @@ export default {
     return {
       form: {
         email: '',
-        password: ''
+        password: '',
+        confirm: ''
       }
     }
   },
